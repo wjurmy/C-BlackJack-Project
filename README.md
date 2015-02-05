@@ -1,1 +1,1 @@
-# Obligatorisk Innlevering (Arbeidskrav)
+# Oblig-1 C++
