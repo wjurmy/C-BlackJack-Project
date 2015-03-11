@@ -1,0 +1,14 @@
+GCC=g++
+CCOPT=-std=c++11
+
+# Add more as you please
+
+All:play
+
+play: BlackJack.o 
+	g++ BlackJack.o -o play
+
+BlackJack.o: BlackJack.cpp
+	 g++ BlackJack.cpp -o BlackJack	
+
+#clean: rm -rf *o play
